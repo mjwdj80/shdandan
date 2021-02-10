@@ -1,0 +1,21 @@
+127.0.0.1   localhost localhost.localdomain localhost4 localhost4.localdomain4
+::1         localhost localhost.localdomain localhost6 localhost6.localdomain6
+
+192.168.2.20	nas
+192.168.2.180   pve
+
+192.168.2.101	blog
+
+192.168.2.157	x200
+192.168.2.158	l410
+192.168.2.159	lenovo
+192.168.2.160	dell
+192.168.2.162	dell_wifi
+
+192.168.2.171	ipad
+192.168.2.172	huawei
+192.168.2.173	xiaomi5s
+192.168.2.174	xiaomi5
+192.168.2.175	xiaomitv
+192.168.2.176	camera
+
