@@ -1,6 +1,6 @@
 #!/bin/sh
 #Password of Database
-db_password=123456
+NAGIOS_PASSWORD=123456
 
 firewall-cmd --add-port=80/tcp --permanent
 firewall-cmd --add-port=80/tcp
@@ -53,9 +53,9 @@ echo "#!/bin/expect
 set timeout 10
 spawn htpasswd -c /usr/local/nagios/etc/htpasswd.users nagiosadmin
 expect \"New password:\"
-send \"123\\r\"
+send \"$NAGIOS_PASSWORD\\r\"
 expect \"password:\"
-send \"123\\r\"
+send \"$NAGIOS_PASSWORD\\r\"
 interact" > nagios_password
 chmod 755 nagios_password
 ./nagios_password
