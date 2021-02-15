@@ -1,4 +1,8 @@
 #!/bin/sh
+
+#Author: Danjun.Wang
+#E-mail:mjwdj1980@gmail.com
+
 #数据库密码
 db_password=123456
 zabbix_db_password=123456

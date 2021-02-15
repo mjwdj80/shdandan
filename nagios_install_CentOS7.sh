@@ -1,4 +1,8 @@
 #!/bin/sh
+
+#Author: Danjun.Wang
+#E-mail:mjwdj1980@gmail.com
+
 #Password of Database
 NAGIOS_PASSWORD=123456
 

@@ -1,12 +1,21 @@
 #!/bin/sh
+
+#Author: Danjun.Wang
+#E-mail:mjwdj1980@gmail.com
+#version 1.0.0		2/15/2021
+
 #密码策略，密码长度
 password_len=10
+
 #密码策略，密码使用期限（天数）
 password_date=30
+
 #允许ssh登录的账号
 ssh_user=user_admin
+
 #允许ssh登录的IP地址
 ssh_ip=192.168.2.200
+
 #更改ssh端口号
 ssh_port=222
 

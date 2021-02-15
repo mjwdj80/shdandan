@@ -1,4 +1,8 @@
 #!/bin/sh
+
+#Author: Danjun.Wang
+#E-mail:mjwdj1980@gmail.com
+
 BACK_FOLDER=/home/conf
 MYSQL_PASSWORD=Wdj@0562
 DB_HOST_IP=192.168.2.155

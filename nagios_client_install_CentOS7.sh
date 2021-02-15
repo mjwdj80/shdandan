@@ -1,5 +1,8 @@
 #!/bin/sh
 
+#Author: Danjun.Wang
+#E-mail:mjwdj1980@gmail.com
+
 firewall-cmd --add-port=5666/tcp --permanent
 firewall-cmd --add-port=5666/tcp
 
