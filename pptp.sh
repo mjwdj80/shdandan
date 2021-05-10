@@ -7,8 +7,8 @@ NETMASK=24
 DNS1=8.8.8.8
 DNS2=8.8.4.4
 
-#yum -y install epel-release
-#yum -y install pptpd
+yum -y install epel-release
+yum -y install pptpd
 
 ETH=`ip add | grep BROADCAST | awk -F: '{print $2}'`
 
