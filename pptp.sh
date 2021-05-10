@@ -35,7 +35,7 @@ echo net.ipv4.ip_forward=1 >> /etc/sysctl.conf
 sysctl -p
 echo 1 >/proc/sys/net/ipv4/ip_forward
 
-firewall-cmd --permanent--add-masquerade
+firewall-cmd --permanent --add-masquerade
 
 firewall-cmd --permanent --add-port=47/tcp
 firewall-cmd --permanent --add-port=1723/tcp
